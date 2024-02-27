@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 /* reset */
-*{margin: 0; padding: 0;}
+*{margin: 0; padding: 0; list-style: none;}
+body {font-family: normal 15px 'RalewayL'; color: #444;}
 ul,li{margin: 0; padding: 0;}
 a{text-decoration: none;}
 .blind {
@@ -55,4 +56,29 @@ a{text-decoration: none;}
     top: 50%;
     transform: translateY(-50%);
     background-size: 35px;
+}
+
+#wrap header .hader_main h1.logo a {
+    color: #444;
+}
+
+h1.logo a span {
+    color: #1ebbd7;
+}
+
+h1.logo a span.pf {
+    font-size: 12px;
+    position: relative;
+    top: -2px;
+}
+
+h1.logo a span.pf::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: -8px;
+    width: 1px;
+    height: 9px;
+    background: #444;
 }
