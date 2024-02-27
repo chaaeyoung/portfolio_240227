@@ -47,8 +47,8 @@ a{text-decoration: none;}
     padding-left: 50px;
 }
 
-#wrap header .hader_main h1.logo span.logoImg{
-    background: url("../images/fv.svg")no-repeat;
+#wrap header .header_main h1.logo span.logoImg {
+    background: url("../images/fv.png")no-repeat;
     width: 35px;
     height: 35px;
     position: absolute;
@@ -81,4 +81,11 @@ h1.logo a span.pf::before {
     width: 1px;
     height: 9px;
     background: #444;
+}
+
+/* menu */
+ul.nav {
+    position: absolute;
+    right: 0;
+    display: flex;
 }
